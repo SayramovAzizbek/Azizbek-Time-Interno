@@ -610,7 +610,10 @@ body {
     border: 2px solid #CDA274;
     box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
     border-radius: 18px;
-    background-image: url('..');
+}
+
+.join-part a::after {
+    background-image: url('../images/last-strelka.svg');
 }
 
 /* End of  Join Section */
